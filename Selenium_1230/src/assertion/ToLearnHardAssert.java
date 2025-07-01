@@ -19,6 +19,7 @@ public class ToLearnHardAssert {
 		
 		driver.get("https://demowebshop.tricentis.com/");
 		driver.findElement(By.linkText("Log in")).click();
+		Sysout.out.println("Nemi Mama");
 		
 		Assert.assertEquals(driver.getTitle(), "Demo Web Shop. Login","Login Page Not displayed");
 		Reporter.log("LoginPage Is Displayed",true);
