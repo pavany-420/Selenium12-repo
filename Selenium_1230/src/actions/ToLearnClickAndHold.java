@@ -18,5 +18,6 @@ public class ToLearnClickAndHold {
 		WebElement ele = driver.findElement(By.xpath("//div[contains(@class,'showPassword')]"));
 			Actions act=new Actions(driver);
 			act.clickAndHold(ele).perform();
+			act.clickAndHold(ele).perform();
 	}
 }
