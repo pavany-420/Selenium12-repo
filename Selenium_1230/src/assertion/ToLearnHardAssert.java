@@ -29,7 +29,7 @@ public class ToLearnHardAssert {
 		driver.findElement(By.xpath("//input[@value='Log in']")).click();
 		
 		Assert.assertEquals(driver.getTitle(),"Demo Web Shop", "Home Page is not Displayed");
-		Reporter.log("Home Page is done",true);
+		Reporter.log("Home Page is Displayed",true);
 		
 		
 	}
