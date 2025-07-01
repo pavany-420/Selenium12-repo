@@ -11,5 +11,7 @@ public class Mama420 {
 	{
 		WebDriver driver=new ChromeDriver();
 		Reporter.log("Deopavan 420",false);
+		Reporter.log("Deopavan 420",false);
+
 	}
 }
